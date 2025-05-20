@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f2ec;
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+.page {
+  display: none;
+  max-width: 600px;
+  margin: auto;
+}
+
+.page.active {
+  display: block;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffb6c1;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.diary {
+  background: url('images/paper-texture.jpg');
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  color: #222;
+  font-style: italic;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 2px 2px 8px #aaa;
+}
